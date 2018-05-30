@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="grey_dde1e7">#DDE1E7</color>
+    <color name="red_f4333c">#ea3e4b</color>
+    <color name="grey_b2b2b2">#B2B2B2</color>
+    <color name="blue_78d2f6">#78D2F6</color>
+    <color name="blue_01aaee">#01AAEE</color>
+    <color name="blue_00aaee">#569ddb</color>
+    <color name="red_f3323b">#F3323B</color>
+
+    <color name="albumback">#E1E0DE</color>
+    <color name="black">#000000</color><!--黑色 -->
+    <color name="none_color">#00000000</color>
+    <color name="plugin_camera_black">#000000</color>
+    <!-- 黑色30%透明度 -->
+    <color name="line_30">#4c000000</color>
+    <!-- 黑色20%透明度 -->
+    <color name="line_20">#33000000</color>
+    <color name="apply_zx_serv_bankgroud">#efeff4</color>
+    <color name = "nuoyigou_text_blue1">#007aff</color>
+    <color name="lightblack">#ff202020</color>
+
+    <color name="main_bottom_default">#696969</color>
+    <color name="main_bottom_focused">#01AAEE</color>
+    <!-- 标题栏 #f6f6f6透明度90% -->
+    <color name="banner_bg">#E6F6F6F6</color>
+    <color name="nuoyigou_backgroung_gray">#efeff4</color>
+    <color name="text_black">#333333</color><!--正式发布时改成666666-->
+    <color name="text_title_11">#111111</color>
+    <color name="text_msg_33">#333333</color>
+    <color name="line_dd">#dddddd</color>
+    <color name="text_input_44">#444444</color>
+    <color name="ios_btntext_blue">#007aff</color>
+    <color name="dialogui_btn_pressed">#eeeeee</color>
+    <color name="navigation_bar">#6CC0FF</color>
+    <!-- alert dialog -->
+    <color name="axxt_color">#6CC0FF</color>
+</resources>

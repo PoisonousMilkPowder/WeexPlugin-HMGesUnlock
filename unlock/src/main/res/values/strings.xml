@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">unlock</string>
+    <string name="umeng_socialize_female">女</string>
+    <string name="umeng_socialize_male">男</string>
+
+    <string name="user_info_phone_hint">请输入您的手机号码</string>
+    <string name="login_password_hint">请输入您的密码</string>
+    <string name="title_login">登录</string>
+    <string name="login_forgot">忘记密码</string>
+    <string name="ten_seconds_register">10秒注册</string>
+    <string name="customer_service_phone_line_6">忘记密码请您联系客服热线</string>
+    <string name="customer_service_phone_line_3">400&#8211;820&#8211;0025</string>
+
+    <string name="webview_close">关闭</string>
+
+    <!-- Gesture login activity -->
+    <string name="gesture_other_account">其他账号登录</string>
+    <string name="gesture_default">请输入手势密码</string>
+    <string name="gesture_error">手势密码输入错误</string>
+    <string name="gesture_correct">输入正确</string>
+
+    <!-- Create gesture activity -->
+    <string name="create_gesture_activity">CreateGestureActivity</string>
+    <string name="create_gesture_default">绘制解锁图案</string>
+    <string name="create_gesture_correct">再次绘制解锁图案</string>
+    <string name="create_gesture_less_error">至少连接4个点，请重新输入</string>
+    <string name="create_gesture_confirm_error">与上一次绘制不一致，请重新绘制</string>
+    <string name="create_gesture_confirm_correct">设置成功</string>
+    <string name="create_gesture_reset">重新设置</string>
+
+    <string name="album">相册</string>
+    <string name="camera_cancel">取消</string>
+    <string name="preview">预览</string>
+    <string name="no_photo">相册没有图片</string>
+    <string name="only_choose_num">超出可选图片张数</string>
+    <string name="finish">完成</string>
+    <string name="finish_result">完成(%2$d/%2$d)</string>
+    <string name="photo">选择相册</string>
+    <string name="back">返回</string>
+</resources>
