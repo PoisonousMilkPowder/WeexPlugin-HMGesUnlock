@@ -35,7 +35,8 @@ public class CreateGestureActivity extends AppCompatActivity {
         setContentView(R.layout.activity_create_gesture);
 
         Intent intent = getIntent();
-        callback = (JSCallback) intent.getSerializableExtra(Constant.CREATE_GESTURE_CALLBACK);
+        ArrayList callbackList = (ArrayList) intent.getSerializableExtra(Constant.CREATE_GESTURE_CALLBACK);
+        callback = (JSCallback) callbackList.get(0);
 
         init();
     }

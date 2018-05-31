@@ -14,6 +14,7 @@ import com.benmu.unlock.utils.LockPatternUtil;
 import com.benmu.unlock.view.LockPatternView;
 import com.taobao.weex.bridge.JSCallback;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class GestureLoginActivity extends AppCompatActivity {
@@ -34,7 +35,8 @@ public class GestureLoginActivity extends AppCompatActivity {
         setContentView(R.layout.activity_gesture_login);
 
         Intent intent = getIntent();
-        callback = (JSCallback) intent.getSerializableExtra(Constant.CHECK_GESTURE_CALLBACK);
+        ArrayList callbackList = (ArrayList) intent.getSerializableExtra(Constant.CHECK_GESTURE_CALLBACK);
+        callback = (JSCallback) callbackList.get(0);
 
         init();
     }

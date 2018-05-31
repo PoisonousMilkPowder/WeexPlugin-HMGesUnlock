@@ -11,6 +11,8 @@ import com.taobao.weex.annotation.JSMethod;
 import com.taobao.weex.bridge.JSCallback;
 import com.taobao.weex.common.WXModule;
 
+import java.util.ArrayList;
+
 /**
  * Created by liangshuai on 2018/5/24.
  * WeexFrameworkWrapper
@@ -23,15 +25,19 @@ public class HmGesUnlock extends WXModule {
 
     @JSMethod
     public void addGesturePage(final JSCallback callback) {
+        ArrayList<JSCallback> callbackList = new ArrayList();
+        callbackList.add(callback);
         Intent intent = new Intent(new Intent(mWXSDKInstance.getContext(), CreateGestureActivity.class));
-        intent.putExtra(Constant.CREATE_GESTURE_CALLBACK, callback);
+        intent.putExtra(Constant.CREATE_GESTURE_CALLBACK, callbackList);
         mWXSDKInstance.getContext().startActivity(intent);
     }
 
     @JSMethod
     public void checkGesturePage(final JSCallback callback) {
+        ArrayList<JSCallback> callbackList = new ArrayList();
+        callbackList.add(callback);
         Intent intent = new Intent(new Intent(mWXSDKInstance.getContext(), GestureLoginActivity.class));
-        intent.putExtra(Constant.CHECK_GESTURE_CALLBACK, callback);
+        intent.putExtra(Constant.CHECK_GESTURE_CALLBACK, callbackList);
         mWXSDKInstance.getContext().startActivity(intent);
     }
 
