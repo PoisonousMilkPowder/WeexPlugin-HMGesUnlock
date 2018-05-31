@@ -7,35 +7,29 @@
 
 引用方式：
 ====================================
-
-1. 从git 下载到本地
-
-```
-## 进入你weex项目中的android根目录，执行git clone
-git clone https://github.com/PoisonousMilkPowder/WeexPlugin-HMGesUnlock.git unlock
+**Step 1.** 在project/build.gradle中添加
 
 ```
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://www.jitpack.io' }
+		}
+	}
+```
 
-2. 修改`settings.gradle`文件
+**Step 2.** 在app/build.gradle中添加
 
 ```
- include ':app', ':unlock'
-```
-
-3. 修改`app/build.gradle`文件
-
-``` 
-dependencies {
-	...
-    compile project(':unlock')
-}
-
+	dependencies {
+	        implementation 'com.github.PoisonousMilkPowder:WeexPlugin-HMGesUnlock:v1.0.2'
+	}
 ```
 __注意__
 
-	目前外部只可以替换默认的背景图片
+目前只可以替换默认的背景图片
 
-	在`app/src/main/res/drawable`下放入自己的背景图片，名称为`gesture_bg`
+在`app/src/main/res/drawable`下放入自己的背景图片，名称为`gesture_bg`
 
 weex中的使用方式：
 ====================================
@@ -48,11 +42,11 @@ weex中的使用方式：
 const hmGesUnlock = weex.requireModule('hmGesUnlock');
 ```
 
-2. 添加手势密码
+2. 创建手势密码
 
 	
 ```
-## 在回调中会返回成功还是失败的Bool结果
+## 成功后会回调
 hmGesUnlock.addGesturePage(function (flag) {
     ...
 });
@@ -62,7 +56,7 @@ hmGesUnlock.addGesturePage(function (flag) {
 
 	
 ```
-## 在回调中会返回成功还是失败的Bool结果
+## 成功后会回调
 hmGesUnlock.checkGesturePage(function (flag) {
     ...
 });
