@@ -4,6 +4,7 @@
 说明：
 ====================================
 本插件是针对weex做的一个手势密码解锁插件，具体的效果可以查看[基于eros的手势密码Demo](https://github.com/shawn-tangsc/eros-gesture-demo)。
+
 ios端请看[andorid手势密码解锁](https://github.com/shawn-tangsc/WeexPlugin-HMGesUnlock).
 
 引用方式：
