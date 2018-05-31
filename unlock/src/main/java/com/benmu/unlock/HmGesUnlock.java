@@ -19,7 +19,7 @@ import java.util.ArrayList;
  * com.benmu.unlock
  */
 
-@WeexModule(name = "hmModule", lazyLoad = true)
+@WeexModule(name = "hmGesUnlock", lazyLoad = true)
 public class HmGesUnlock extends WXModule {
     private ACache aCache;
 
