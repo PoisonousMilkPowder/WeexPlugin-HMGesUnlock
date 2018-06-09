@@ -7,6 +7,12 @@
 
 ios端请看[ios手势密码解锁](https://github.com/shawn-tangsc/WeexPlugin-HMGesUnlock).
 
+效果
+=======
+
+![Gif_20180609_163518](gif/Gif_20180609_163518.gif)
+
+
 引用方式：
 ====================================
 **Step 1.** 在project/build.gradle中添加
