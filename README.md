@@ -70,7 +70,7 @@ hmGesUnlock.checkGesturePage(function (flag) {
 });
 ```
 	
-3. 清除手势密码
+4. 清除手势密码
 
 	
 ```
