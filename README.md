@@ -69,3 +69,14 @@ hmGesUnlock.checkGesturePage(function (flag) {
     ...
 });
 ```
+	
+3. 清除手势密码
+
+	
+```
+## 成功后会回调
+hmGesUnlock.removeGesturePassword(function (flag) {
+    ...
+});
+```
+
